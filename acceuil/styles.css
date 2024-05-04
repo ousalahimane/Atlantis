@@ -1,0 +1,353 @@
+/* START BACKGROUNDS */
+main {
+    .container-fluid{
+        background: -webkit-linear-gradient(#183d6e,transparent 10%),url(img/BackgroundImage.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+        .navbar{
+            position: absolute;
+            padding-left: 50px;
+        } 
+}
+
+
+ul {
+    li:nth-child(4){
+       margin-left: 800px;
+    }
+    li:nth-child(5){
+       margin-left: 20px;
+    }
+    li:nth-child(6){
+       margin-left: 20px;
+    }
+}
+
+section {
+    .container-fluid{
+        background-image: url(img/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-left: 80px;
+        .back{
+            background-image: url(img/screen_3840x2160_2018-02-06_11-06-55.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+.container-fluid{
+    background: -webkit-linear-gradient(#0a1c32,transparent 30%),url(img/screen_3840x2160_2018-02-06_11-12-14.png), 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer {
+    .container-fluid{
+        background: -webkit-linear-gradient(#06101f,transparent 80%),url(img/Rectangle6copie3.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    #sect2{
+        background: -webkit-linear-gradient(#172128,transparent 800%),url(img/Rectangle6copie4.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sect3{
+        background: -webkit-linear-gradient(#010f1b, transparent 100%),url(img/Rectangle6copie3.png), 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* END BACKGROUNDS */
+
+
+
+/* START FONTS */
+@font-face {
+    font-family: Charlemagne Std;
+    src: url('font/CharlemagneStd-Bold.otf');
+}
+
+@font-face {
+    font-family: Archeologicaps;
+    src: url('font/Archeologicaps.ttf');
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url('font/Gotham\ Bold.otf');
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url('font/Gotham\ Light.otf');
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url('font/Gotham\ Medium.otf');
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url('font/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url('font/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url('font/Raleway-Bold.ttf');
+}
+
+/* END FONTS */
+
+.nav-link{
+    font-family: Charlemagne Std;
+    font-weight: normal;
+}
+
+main > .container-fluid > h1{
+    font-family: Archeologicaps;
+    color: #f3e2ba;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 55pt;
+}
+
+main > .container-fluid > h3{
+    font-family: Archeologicaps;
+    color: #f3e2ba;
+    text-align: center;
+    font-size: 16pt;
+}
+
+main > .container-fluid > .flex-container > .flex-item{
+    font-family: GothamLight;
+    font-weight: normal;
+    color: #f3e2ba;
+}
+
+section > .container-fluid > div > h1{
+    font-family: Charlemagne Std;
+    color: #f3e2ba;
+    font-size: 20pt;
+    
+}
+
+section > .container-fluid > div > h2{
+    font-family: GothamBold;
+    font-size: 14pt;
+    color: #fff;
+}
+
+section > .container-fluid > div > p{
+    font-family: GothamLight;
+    font-size: 12pt;
+    color: #fff;
+}
+
+.container-fluid > h1{
+    font-family: Charlemagne Std;
+    color: #f3e2ba;
+    font-size: 20pt;
+    text-align: center;
+}
+
+main > .container-fluid {
+    .flex-container{
+        display: flex;
+        justify-content: space-evenly;
+       
+        .flex-item{
+            width: 410px;
+            height: 220px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-top: 160px;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-align: center;
+            font-family: GothamLight;
+        }
+    
+        .img1{
+            background: -webkit-linear-gradient(bottom,#050f1b,transparent 100%),url(img/Container.png), 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+    
+        .img2{
+            background: -webkit-linear-gradient(bottom,#050f1b,transparent 100%),url(img/Container2.png), 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+    
+        .img3{
+            background: -webkit-linear-gradient(bottom,#050f1b,transparent 100%),url(img/Container3.png), 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+} 
+
+}
+
+section > .container-fluid{
+    display: flex;
+    
+}
+
+main > .container-fluid > .btn{
+   color: #f3e2ba;
+   background-color: transparent;
+   border: 3px solid #f3e2ba;
+   margin-top: 50px;
+   font-family: GothamBold;
+   margin-left: 550px;
+}
+
+section > .container-fluid > div > .btn{
+    font-family: Charlemagne Std;
+    color: #fff;
+    font-size: 12pt;
+    background-color: transparent;
+    border: 3px solid #f3e2ba;
+    margin-top: 25px;
+}
+
+.container-fluid > .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    .flex-item{
+        width: 300px;
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    h3{
+        padding-left: 10px;
+        padding-right: 40px;
+        padding-top: 150px;
+        color: #f3e2ba;
+        font-family: RalewayRegular;
+        font-size: 11pt;
+    }
+
+    p{
+        padding-left: 10px;
+        padding-right: 30px;
+        color: #fff;
+        font-family: GothamLight;
+        font-size: 8.5pt;
+    }
+    .img1{
+        background-image: url(img/img1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .img2{
+        background-image: url(img/img2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+       
+    }
+
+    .img3{
+        background-image: url(img/img3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .img4{
+        background-image: url(img/img4.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+ footer > .container-fluid > .row{
+    display: flex;
+    justify-content: center;
+
+    .item{
+        width: 300px;
+
+        h3{
+            font-family: Charlemagne Std;
+            color: hsl(42, 70%, 84%);
+            font-size: 13pt;
+        }
+        p{
+            color: #fff;
+            font-family: RalewayRegular;
+            font-size: 8.5pt;
+            svg{
+                margin-right: 20px;
+                margin-top: 30px;
+            }
+        }
+
+    }
+}
+
+footer > #sect2 > .container{
+    width: 40%;
+        label{
+            color: #fff;
+            font-family: RalewayRegular;
+            font-size: 10pt;
+        }
+
+}
+
+footer > #sect3 > .container{
+    width: 20%;
+      p{
+        color: #fff;
+        font-family: RalewayRegular;
+        font-size: 10pt;
+      }
+}
+
+
+
+
+

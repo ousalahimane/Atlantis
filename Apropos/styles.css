@@ -1,0 +1,180 @@
+/* START BACKGROUNDS */
+header{
+    .navbar{
+        position: absolute;
+        padding-left: 50px;
+    } 
+}
+
+ul {
+    li:nth-child(4){
+       margin-left: 800px;
+    }
+    li:nth-child(5){
+       margin-left: 20px;
+    }
+    li:nth-child(6){
+       margin-left: 20px;
+    }
+}
+
+
+
+section {
+    .container-fluid{
+        background: -webkit-linear-gradient(#183d6e,transparent 10%),url(img/Background.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 70px;
+     }
+}
+
+footer {
+    .container-fluid{
+        background: -webkit-linear-gradient(#06101f,transparent 80%),url(img/Rectangle6copie3.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+    }
+    #sect2{
+        background: -webkit-linear-gradient(#172128,transparent 800%),url(img/Rectangle6copie4.png), 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sect3{
+        background: -webkit-linear-gradient(#010f1b, transparent 100%),url(img/Rectangle6copie3.png), 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+/* END BACKGROUNDS */
+
+/* START FONTS */
+@font-face {
+    font-family: Charlemagne Std;
+    src: url('font/CharlemagneStd-Bold.otf');
+}
+
+@font-face {
+    font-family: Archeologicaps;
+    src: url('font/Archeologicaps.ttf');
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url('font/Gotham\ Bold.otf');
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url('font/Gotham\ Light.otf');
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url('font/Gotham\ Medium.otf');
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url('font/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url('font/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url('font/Raleway-Bold.ttf');
+}
+
+/* END FONTS */
+
+.nav-link{
+    font-family: Charlemagne Std;
+    font-weight: normal;
+}
+
+section > .container-fluid > .container{
+    padding-top: 70px;
+        p{
+            text-align: center;
+            color: #FFF;
+            width: 60%;
+            margin-left: 200px;
+            padding-top: 10px;
+        }
+        #img{
+            margin-left: 44%;
+        }
+        img{
+            width: 100px;
+        }
+        #font1{
+            font-family: GothamLight;
+            font-size: 11pt;
+        }
+        #font2{
+            font-family: Charlemagne Std;
+            color: #f3e2ba;
+            font-size: 18pt;
+        }
+        #font4{
+            font-family: RalewayRegular;
+            font-size: 9.5pt;
+        }
+}
+
+footer > .container-fluid > .row{
+    display: flex;
+    justify-content: center;
+
+    .item{
+        width: 300px;
+
+        h3{
+            font-family: Charlemagne Std;
+            color: hsl(42, 70%, 84%);
+            font-size: 11pt;
+        }
+        p{
+            color: #fff;
+            font-family: RalewayRegular;
+            font-size: 8pt;
+            svg{
+                margin-right: 20px;
+                margin-top: 30px;
+            }
+        }
+
+    }
+}
+
+footer > #sect2 > .container{
+    width: 40%;
+        label{
+            color: #fff;
+            font-family: RalewayRegular;
+            font-size: 10pt;
+        }
+
+}
+
+footer > #sect3 > .container{
+    width: 20%;
+      p{
+        color: #fff;
+        font-family: RalewayRegular;
+        font-size: 10pt;
+      }
+}
