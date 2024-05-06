@@ -1,3 +1,5 @@
+## Project Description
+Atlantis est bien plus qu'un simple projet front-end, c'est une immersion dans un monde numérique où l'expérience utilisateur atteint de nouveaux sommets. Conçu avec une esthétique moderne et épurée, Atlantis repose sur une architecture robuste et des technologies de pointe pour offrir une navigation fluide et intuitive.
 ## Page d'acceuil
 ![Group 1](https://github.com/ousalahimane/Atlantis/assets/130361823/ad1a11c6-ae30-41af-a88b-29423c547ff3)
 
