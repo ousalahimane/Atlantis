@@ -1,6 +1,8 @@
-Page d'acceuil
-![Group 1](https://github.com/ousalahimane/project-atlantis/assets/130361823/dd59ceed-5c5e-4437-a46c-4a80ad8a255f)
-Page de contact
-![Group 2](https://github.com/ousalahimane/project-atlantis/assets/130361823/0c557a5e-18c6-4295-b011-decf437418c0)
-Page A propos
-![Group 3](https://github.com/ousalahimane/project-atlantis/assets/130361823/db475844-9489-469e-b7aa-29faef852378)
+## Page d'acceuil
+![Group 1](https://github.com/ousalahimane/Atlantis/assets/130361823/ad1a11c6-ae30-41af-a88b-29423c547ff3)
+
+## Page de contact
+![Group 2](https://github.com/ousalahimane/Atlantis/assets/130361823/85a9dd1e-17f2-4a2f-ac8d-7bd6dc47c12b)
+
+## Page A propos
+![Group 3](https://github.com/ousalahimane/Atlantis/assets/130361823/91ca7d84-88a1-4a93-adb1-5ed89c69e11d)
